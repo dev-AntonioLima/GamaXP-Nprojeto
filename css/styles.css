@@ -5,9 +5,6 @@ overflow: auto;
 }
 
 body {
-background: url('imagens/capa.png'),
-url('imagens/ruido.png'),
-linear-gradient(50deg,#ff4169,#7c26f8);
 background-attachment: fixed;
 font-family: Helvetica,Arial,sans-serif;
 overflow-x: hidden;
@@ -15,7 +12,7 @@ overflow-x: hidden;
 
 /* -- NAVEGACAO-- */
 
-.
+
 
 .img-logo {
 height: 100px;
@@ -93,7 +90,7 @@ color: black;
 
 /* -- SERVICO -- */
 #servicos {
-background: white;
+background-image: url('/images/Div.jpg'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; 
 padding-top: 20px;
 padding-bottom: 20px;
 }
