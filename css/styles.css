@@ -14,14 +14,30 @@ overflow-x: hidden;
 
 
 .img-logo {
+height: 300px;
+width: 400px;
+display: block;
+background: url('/images/LogoBranco.png') no-repeat;
+background-size: contain;
+color: transparent;
+margin-right: 100%;
+margin-bottom: 100%;
+}
+
+.img-logo-footer{
 height: 100px;
 width: 300px;
 display: block;
 background: url('/images/LogoBranco.png') no-repeat;
 background-size: contain;
 color: transparent;
-margin-bottom: 100%;
 }
+
+
+
+
+
+
 
 nav.navbar-transparente {
 padding: 15px 0px;
