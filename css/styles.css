@@ -22,7 +22,7 @@ background-size: contain;
 color: transparent;
 margin-top: 40%;
 margin-right: 150%;
-margin-bottom: 100%;
+margin-bottom: 70%;
 }
 
 .img-logo-footer{
@@ -32,7 +32,7 @@ display: block;
 background: url('/images/LogoBranco.png') no-repeat;
 background-size: contain;
 color: transparent;
-margin-right: 80%;
+margin-right: 20%;
 }
 
 
@@ -218,7 +218,9 @@ color: #7c25f8;
 
 
 a i{
+display: inline-flex;
+text-align: center;
 font-size: 200%;
 color: rgb(255, 255, 255);
-margin-left: 50%;
+
 }
