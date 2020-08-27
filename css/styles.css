@@ -32,7 +32,7 @@ text-align: right;
 }
 
 .menu ul li {
-    margin-top: 1%;
+margin-top: 1%;
 display: inline-block;
 }
 
@@ -41,9 +41,6 @@ display: block;
 color: #FFFFFF;
 padding: 30px 10px;
 }
-
-
-
 
 
 .img-logo-footer{
@@ -60,7 +57,9 @@ margin-right: 20%;
 nav.navbar-transparente {
 padding: 10px 0px;
 border: none;
-background-image: url("/images/Header.jpg"); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; 
+background-image: url("/images/Header.jpg"); background-size: 100% 100%; background-repeat: no-repeat;
+height:900px; 
+width:900px;
 }
 
 .navbar-brand{
@@ -131,7 +130,7 @@ padding-bottom: 20px;
 
 /* -- SERVICO -- */
 #servicos {
-background-image: url('/images/Div.jpg'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; 
+background-image: url('/images/Div.jpg'); background-size: 100% 100%; background-repeat: no-repeat;
 padding-top: 20px;
 padding-bottom: 20px;
 }
