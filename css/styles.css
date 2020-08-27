@@ -50,7 +50,7 @@ margin-right: 20%;
 }
 
 nav.navbar-transparente {
-padding: 10px 0px;
+padding: 10%;
 border: none;
 background-image: url("/images/Header.jpg"); background-size: 100% 150%; background-repeat: no-repeat;
 
@@ -81,6 +81,12 @@ display: table;
 width: 100%;
 }
 
+.texto-capa {
+text-align: center;
+color: white;
+display: table-cell;
+vertical-align: middle;
+}
 
 #youtube {
 background-color: white;
@@ -89,17 +95,27 @@ padding-bottom: 20px;
 }
 
 /* -- SERVICO -- */
-#servicos {
-background-image: url('/images/Div.jpg'); background-size: 100% 100%; background-repeat: no-repeat;
+.servicos {
+background-image: url('/images/Sinta.jpg'); background-size: 100% 100%; background-repeat: no-repeat;
+font-size: 10 px;
+padding: 10%;
+}
+
+
+
+/* -- RECURSO -- */
+#recursos {
 padding-top: 20px;
 padding-bottom: 20px;
-font-size: 10 px;
+color: white;
 }
 
-.servicos{
-padding: 10px 0px 10px 0px;
+.rotacionar{
+transform: rotate(30deg);
+-ms-transform: rotate(30deg); /* IE 9 */
+-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+padding-left: 80px;
 }
-
 
 /* -- FOOTER -- */
 footer {
@@ -108,6 +124,9 @@ linear-gradient(50deg,#ff4169,#7c26f8);
 position: relative;
 }
 
+.item-rede-social{
+float: right;
+}
 
 /* ========================= tipografia ======================== */
 h1 {
@@ -121,6 +140,11 @@ margin-bottom: 80%;
 @media screen and (max-width: 767px) {
 h1 {
 font-size: 50px; 
+}
+
+.btn-custom {
+margin: 10px 15px;
+}
 }
 
 /* sm */
@@ -167,6 +191,10 @@ text-align: center;
 margin-right: 40%;   
 }
 
+#servicos h2, #servicos h3 {
+color: #7c25f8;
+}
+
 
 a i{
 display: inline-flex;
@@ -182,9 +210,17 @@ height: 250x;
 width: 250px;
 }
 nav.navbar-transparente {
-padding: 10px 0px;
+padding: 5%;
 border: none;
-background-image: url("/images/Header.jpg"); background-size: 100% 80%; background-repeat: no-repeat;
+background-image: url("/images/Header.jpg"); background-size: 100% 50%; background-repeat: no-repeat;
 margin-bottom: 3%;
 }
+
+.servicos {
+background-image: url('/images/Sinta.jpg'); background-size: 100% 60%; background-repeat: no-repeat;
+font-size: 10 px;
+padding: 5%;
+}
+
+
 }
