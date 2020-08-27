@@ -5,9 +5,9 @@ overflow: auto;
 }
 
 body {
-background-attachment: fixed;
+background-attachment: flex;
 font-family: Helvetica,Arial,sans-serif;
-overflow-x: hidden;
+overflow-x: none;
 }
 
 /* -- NAVEGACAO-- */
@@ -16,14 +16,35 @@ overflow-x: hidden;
 .img-logo {
 height: 300px;
 width: 400px;
-display: flex;
+display: inline-block;
 background: url('/images/LogoBranco.png') no-repeat;
 background-size: contain;
 color: transparent;
-margin-top: 40%;
-margin-right: 150%;
-margin-bottom: 70%;
+margin-top: 35%;
+margin-right: 0%;
+margin-bottom: 20%;
 }
+
+.menu {
+background-color: #0e010100;
+text-align: right;
+
+}
+
+.menu ul li {
+    margin-top: 1%;
+display: inline-block;
+}
+
+.menu ul li a {
+display: block;
+color: #FFFFFF;
+padding: 30px 10px;
+}
+
+
+
+
 
 .img-logo-footer{
 height: 100px;
@@ -37,7 +58,7 @@ margin-right: 20%;
 
 
 nav.navbar-transparente {
-padding: 15px 0px;
+padding: 10px 0px;
 border: none;
 background-image: url("/images/Header.jpg"); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed; 
 }
