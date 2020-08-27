@@ -202,20 +202,11 @@ margin-right: 3%;
 
 @media ( max-width:900px ) {
 
-
-
-
-
 .img-logo {
-height: 200px;
+height: 100px;
 width: 200px;
 display: inline-block;
-background: url('/images/LogoBranco.png') no-repeat;
-background-size: contain;
-color: transparent;
-margin-top: 5%;
-margin-right: 40%;
-margin-bottom: 10%;
+
 }
 
 nav.navbar-transparente {
