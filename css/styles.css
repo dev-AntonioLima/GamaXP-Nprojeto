@@ -57,9 +57,8 @@ margin-right: 20%;
 nav.navbar-transparente {
 padding: 10px 0px;
 border: none;
-background-image: url("/images/Header.jpg"); background-size: 200% 100%; background-repeat: no-repeat;
-height:900px; 
-width:900px;
+background-image: url("/images/Header.jpg"); background-size: 100% 150%; background-repeat: no-repeat;
+
 }
 
 .navbar-brand{
