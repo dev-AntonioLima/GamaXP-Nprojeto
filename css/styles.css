@@ -50,9 +50,9 @@ margin-right: 20%;
 }
 
 nav.navbar-transparente {
-padding: 10%;
+padding: 1%;
 border: none;
-background-image: url("/images/Header.jpg"); background-size: 100% 150%; background-repeat: no-repeat;
+background-image: url("/images/Header.jpg"); background-size: 100% 170%; background-repeat: no-repeat;
 
 }
 
@@ -66,6 +66,11 @@ height: 16px;
 background: white;
 margin: 16px 10px;
 }
+
+
+
+
+
 
 .navbar-inverse .navbar-nav>li>a, footer .nav a {
 color: white;
@@ -83,10 +88,11 @@ width: 100%;
 
 
 
-#youtube {
-background-color: white;
-padding-top: 20px;
-padding-bottom: 20px;
+.youtube h2 {
+background-color: rgb(129, 43, 43)36, 40, 40);
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 5%;
 }
 
 /* -- SERVICO -- */
@@ -121,6 +127,10 @@ position: relative;
 
 .item-rede-social{
 float: right;
+}
+
+.video-youtube{
+margin-left: 25%;
 }
 
 /* ========================= tipografia ======================== */
@@ -167,9 +177,10 @@ font-size: 100px;
 
 
 h2{
-font-size: 50px;
+font-size: 40px;
 font-weight: 700;
 letter-spacing: -0.04em;
+text-align: center;
 }
 
 h3{
@@ -200,7 +211,7 @@ margin-right: 3%;
 
 }
 
-@media only screen and ( max-width:900px ) {
+@media only screen and ( max-width:1000px ) {
 
 .img-logo {
 height: 100px;
@@ -222,9 +233,12 @@ font-size: 10 px;
 padding: 5%;
 }
 
-.direitos{
-
+.video-youtube iframe {
+width: 50%;
+height: 80%;
 }
+
+
 
 a i {
 font-size: 150%; 
@@ -232,3 +246,4 @@ text-align: right;
 }
 
 }
+
